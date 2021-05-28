@@ -11,14 +11,32 @@
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-  }
-  @-webkit-keyframes fadeIn {
+}
+@-webkit-keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1;}
-  }
-  @keyframes fadeIn {
+}
+@keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1;}
-  }
+}
+</br>
+<h3>FadeOut</h3>
+<br/>
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
 }
 </div>
